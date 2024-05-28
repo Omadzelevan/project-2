@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  height: 500px;
+  width: 600px;
+  background-color: beige;
+  border-radius: 50px;
+  -webkit-box-shadow: 5px 7px 33px 0px rgba(166, 123, 166, 1);
+  -moz-box-shadow: 5px 7px 33px 0px rgba(166, 123, 166, 1);
+  box-shadow: 5px 7px 33px 0px rgba(166, 123, 166, 1);
+}
+
+.result {
+  height: 500px;
+  width: 50%;
+  position: relative;
+  background-color: blue;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+.head {
+  position: absolute;
+  margin-bottom: 350px;
+  color: rgba(239, 236, 225, 0.821);
+}
+.score {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(0, 94, 255);
+  border-radius: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-shadow: 1px 18px 29px 17px rgba(102, 30, 189, 1);
+  -moz-box-shadow: 1px 18px 29px 17px rgba(102, 30, 189, 1);
+  box-shadow: 1px 18px 29px 17px rgba(102, 30, 189, 1);
+}
+.score h1 {
+  color: white;
+  font-size: 80px;
+}
+.great {
+  color: cornsilk;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.rew {
+  color: rgba(240, 248, 255, 0.651);
+  text-rendering: unset;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.summary {
+  color: rgb(55, 0, 255);
+  position: absolute;
+  top: 10px;
+  right: 130px;
+  font-size: 20px;
+}
+
+.grade ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.grade {
+  position: relative;
+}
+.grade ul li {
+  height: 50px;
+  background-color: rgba(231, 18, 142, 0.879);
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+}
+
+.next {
+  position: relative;
+  margin-top: 20px;
+}
+.next button {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: blueviolet;
+  margin-top: 40px;
+  -webkit-box-shadow: -3px 2px 24px 5px rgba(151, 116, 194, 1);
+  -moz-box-shadow: -3px 2px 24px 5px rgba(151, 116, 194, 1);
+  box-shadow: -3px 2px 24px 5px rgba(151, 116, 194, 1);
+  cursor: pointer;
+}
+.react {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.react h1 {
+  margin-right: 20px;
+  color: rgb(47, 255, 0);
+}
+.react p {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.score p{
+  color: azure;
+}
